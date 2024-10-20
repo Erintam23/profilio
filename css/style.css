@@ -1,0 +1,21 @@
+:root{
+    font-size: 70%;
+}
+
+body {
+    background-color: lavender;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+    justify-content: center;
+}
+
+.viewport {
+    width: 400px;
+}
+

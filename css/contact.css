@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: white;
+    background-color:black ;
     font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -12,6 +12,7 @@ body{
 .container {
     width: 80%;
     margin: 50px auto;
+    color: white;
 }
 
 .contact-box{
@@ -87,4 +88,17 @@ button{
 .contact-left h2{
     font-weight: 400;
     margin-bottom: 20px;
+    color: black;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+
+table{
+    color: white;
 }
