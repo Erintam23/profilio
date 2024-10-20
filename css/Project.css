@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+Body{
+    background: white;
+    place-items: centre;
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    color:black
+}
