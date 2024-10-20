@@ -1,5 +1,5 @@
 :root{
-    font-size: 70%;
+    font-size: 80%;
 }
 
 h1{
@@ -47,6 +47,28 @@ nav a:hover {
     background-color: lavender;
     margin: 1rem;
     padding: 25px;
+}
+
+main {
+    flex: 3;
+}
+
+h2 {
+    font-weight: 5000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+}
+
+P {
+    font-size: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-weight: 5000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
 
 .viewport {
