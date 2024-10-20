@@ -5,7 +5,7 @@
 }
 
 Body{
-    background: white;
+    background: rgb(235, 233, 233);
     place-items: centre;
     display: grid;
     height: 100vh;
@@ -13,4 +13,16 @@ Body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.9rem;
     color:black
+}
+
+img{
+    display:block;
+    width:100%;
+    object-fit:cover;
+}
+
+main{
+    background: whitesmoke;
+    width: 100%;
+    padding: 20px;
 }
