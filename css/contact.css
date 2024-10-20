@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background: lightgrey;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis: 50%;
+    padding:40px;
+    background-color: lightpink;
+    color: white;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-bottom: 30px;
+}
+
+.input-row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-row .input group{
+    flex-basis: 40%;
+}
+
+input{
+    width: 80%;
+    border: bottom 1px;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+label{
+    margin: bottom 5px;
+    display:block;
+    color: black;
+}
+textarea{
+    width: 100%;
+    Outline:none;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+button{
+    background: lightgray;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: black;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.contact-right h3{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact-left h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
