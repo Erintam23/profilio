@@ -71,6 +71,24 @@ h3 {
     font-size: 20px;
 }
 
+th, td{
+    border: 1px solid;
+    text-align: left;
+}
+
+th{
+    color: purple;
+}
+
+ol{
+   padding-left: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+
 .viewport {
     width: 400px;
 }
