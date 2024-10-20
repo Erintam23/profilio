@@ -61,6 +61,7 @@ h2 {
 
 P {
     font-size: 15px;
+    font-stretch: expanded;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
