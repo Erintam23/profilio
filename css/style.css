@@ -88,8 +88,18 @@ li{
     margin-bottom: 5px;
 }
 
+h4{
+    font-weight: 5000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
 
 .viewport {
     width: 400px;
 }
 
+figcaption{
+    font-size: 12px;
+    margin-top: 1rem;
+    font-weight: 550;
+}
