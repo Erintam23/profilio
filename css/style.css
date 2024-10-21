@@ -21,7 +21,7 @@ header{
     margin: 1rem;
 }
 
-u1{
+ul{
     display: flex;
     gap: 10rem;
     list-style: none;
