@@ -10,8 +10,7 @@ h1{
 body {
     background-color: white;
     font-size: medium;
-    font-family:'Times New Roman', Times, serif;
-    
+    font-family:'Times New Roman', Times, serif;  
 }
 
 header{
@@ -20,7 +19,6 @@ header{
     padding: 20px 0;
     text-align: center;
     margin: 1rem;
-
 }
 
 u1{
