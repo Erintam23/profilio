@@ -93,7 +93,8 @@ th, td{
 
 th{
     color: purple;
-    border: 1px soild black;
+    border: 1px soild;
+    border: black;
 }
 
 ol{
