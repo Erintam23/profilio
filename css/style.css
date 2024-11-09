@@ -5,8 +5,10 @@
 h1{
     font-family: Rubik Wet Paint;
     text-align: center;
+    letter-spacing: 4px;
 }
 
+/*Importing font for heading one-------*/
 .rubik-wet-paint-regular {
     font-family: "Rubik Wet Paint", system-ui;
     font-weight: 300;
