@@ -6,7 +6,7 @@
 
 Body{
     background: rgb(235, 233, 233);
-    place-items: centre;
+    place-items: center;
     display: grid;
     height: 100vh;
     width: 100vw;
@@ -18,7 +18,8 @@ Body{
 header{
     background-color: #c8a2c8;
     color: black;
-    padding: 20px 0;
+    padding: 20px;
+    width: 100%;
     text-align: center;
     margin: 1rem;
 }
@@ -40,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: plum;
+    background-color: lavender;
 }
 
 img{
@@ -58,7 +59,7 @@ main{
 h2{
     font-size: 12pt;
     font-family:'Times New Roman', Times, serif;
-    font-weight: 500px;
+    font-weight: 500;
     margin-top: 10pt;
     margin-bottom: 0.5rem;
 }
@@ -74,7 +75,7 @@ h2{
     gap: 1rem;
     background-color: white;
     padding: 1rem;
-    border: 4px soild transparent;
+    border: 4px solid transparent;
     border-radius: 1rem;
 }
 

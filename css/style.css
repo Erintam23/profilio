@@ -3,8 +3,14 @@
 }
 
 h1{
-    font-weight: 600;
+    font-family: Rubik Wet Paint;
     text-align: center;
+}
+
+.rubik-wet-paint-regular {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 300;
+    font-style: normal;
 }
 
 body {
@@ -93,8 +99,7 @@ th, td{
 
 th{
     color: purple;
-    border: 1px soild;
-    border: black;
+    border: 1px solid black
 }
 
 ol{
