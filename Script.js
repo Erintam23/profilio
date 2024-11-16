@@ -8,20 +8,20 @@ footer.textContent = `© ${currentYear} Erin Tam. All Rights Reserved. | Today's
 // Portfolio Greeting
 const currentHour = new Date().getHours();
 const greetingElement = document.getElementById("Greeting");
+console.log (currentHour);
 
 if (currentHour < 12) {
-    greetingElement.textContent = "Good morning!";
+    greetingElement.textContent = "Good Morning!";
 } else if (currentHour < 17) {
-    greetingElement.textContent = "Good afternoon!";
+    greetingElement.textContent = "Good Afternoon!";
 } else {
-    greetingElement.textContent = "Good evening!";
+    greetingElement.textContent = "Good vening!";
 }
 
 // Alert Button
-const alertButton = document.getElementById('btn-alert');
-alertButton.addEventListener('click', () => {
-    alert('Hello world!');
-});
+function showAlert() {
+    alert('Hello World! WOW ! You sucessfully find my website and thank you for visting! Have a wonderful day !');
+}
 
 // Hover Button: Change text on hover
 alertButton.addEventListener('mouseover', () => {
