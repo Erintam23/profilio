@@ -6,25 +6,15 @@ const todayDate = new Date().toDateString();
 footer.textContent = `© ${currentYear} Erin Tam. All Rights Reserved. | Today's Date: ${todayDate}`;
 
 // Portfolio Greeting
-const greetingElement = document.getElementById('Greeting');
+const currentHour = new Date().getHours();
+const greetingElement = document.getElementById("Greeting");
 
-function updateTime() {
-const hours = timeNow.getHours();
-let greeting;
-let cssClass;
-
-if (hours =>5 && hours < 12) {
-    greeting = 'Good Morning!';
-    cssClass = 'morning';
-} else if (hours =>12 && hours < 18) {
-    greeting = 'Good afternoon!';
-    cssClass = 'afternoon';
+if (currentHour < 12) {
+    greetingElement.textContent = "Good morning!";
+} else if (currentHour < 17) {
+    greetingElement.textContent = "Good afternoon!";
 } else {
-    greeting = 'Good evening!';
-    cssClass = 'evening';
-}
-greetingElement.textContent = greeting;
-greetingElement.className = cssClass; // Add the class for styling
+    greetingElement.textContent = "Good evening!";
 }
 
 // Alert Button
