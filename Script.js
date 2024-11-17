@@ -11,10 +11,13 @@ const greetingElement = document.getElementById("Greeting");
 
 if (currentHour < 12) {
     greetingElement.innerText = "Good Morning!";
+    greetingElement.classList.add("Morning");
 } else if (currentHour < 17) {
     greetingElement.innerText = "Good Afternoon!";
+    greetingElement.classList.add("Afternoon");
 } else {
     greetingElement.innerText = "Good Evening!";
+    greetingElement.classList.add("Evening");
 }
 
 // Alert Button
