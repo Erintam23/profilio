@@ -8,34 +8,38 @@ footer.textContent = `© ${currentYear} Erin Tam. All Rights Reserved. | Today's
 // Portfolio Greeting
 const currentHour = new Date().getHours();
 const greetingElement = document.getElementById("Greeting");
-console.log (greetingElement);
 
 if (currentHour < 12) {
-    greetingElement.textContent = "Good Morning!";
+    greetingElement.innerText = "Good Morning!";
 } else if (currentHour < 17) {
-    greetingElement.textContent = "Good Afternoon!";
+    greetingElement.innerText = "Good Afternoon!";
 } else {
-    greetingElement.textContent = "Good Evening!";
+    greetingElement.innerText = "Good Evening!";
 }
 
 // Alert Button
 function showAlert() {
-    alert('Hello World! WOW ! You sucessfully find my website and thank you for visting! Have a wonderful day !');
+    alert('Hello World! WOW ! You successfully found my website and thank you for visting! Have a wonderful day !');
 }
 
 // Hover Button: Change text on hover
-const button = document.querySelector('button')
+const alertButton = document.querySelector('button')
 alertButton.addEventListener('mouseover', () => {
-    alertbutton.innerText = 'Here!';
+    alertButton.innerText = 'Here!';
 });
 alertButton.addEventListener('mouseout', () => {
     alertButton.innerText = 'Click Me';
 });
 
-// Populate Ordered List with Odd/Even Numbers
-const numbersList = document.getElementById('numbers');
-for (let i = 1; i <= 12; i++) {
-    const listItem = document.createElement('li');
-    listItem.textContent = i % 2 === 0 ? 'Even' : 'Odd';
-    numbersList.appendChild(listItem);
+// List with Odd/Even Numbers
+
+const numbersList = document.getElementById("numbers");
+for (let i = 1; i <=12; i++) {
+    const listItem = document.createElement("li");
+if (i % 2 === 0) {
+    listItem.textContent = `Item ${i}: Even`;
+} else {
+    listItem.textContent = `Item ${i}: Odd`;
+}
+numbersList.appendChild(listItem);
 }

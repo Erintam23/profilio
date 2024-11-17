@@ -144,6 +144,26 @@ figcaption{
     font-weight: 550;
 }
 
+h6{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+ol{
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+li.even {
+    color: aqua;
+}
+
+li.odd {
+    color: palevioletred;
+}
+
+
 /*footer------------------*/
 footer{
     background-color: rgb(213, 208, 208);
